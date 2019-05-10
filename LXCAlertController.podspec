@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LXCAlertController'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'LXCAlertController'
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'A short description of LXCAlertController'
 
-  s.homepage         = 'https://github.com/刘晓晨/LXCAlertController'
+  s.homepage         = 'https://github.com/butterflyXX/LXCAlertController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '刘晓晨' => 'liuxiaochen1991@icloud.com' }
