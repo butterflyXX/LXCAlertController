@@ -7,6 +7,7 @@
 //
 
 #import "LXCViewController.h"
+#import "LXCAlertController.h"
 
 @interface LXCViewController ()
 
@@ -24,6 +25,16 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    LXCAlertController *alertController = [LXCAlertController alertControllerWithTitle:@"减免成功" subTitle:@"请提醒顾客使用“合生通”进行停车缴费" imageName:@""];
+    [alertController addActionWithButtonTitle:@"确定" block:^{
+        
+    }];
+    
+    [self presentViewController:alertController animated:YES completion:nil];
+    
 }
 
 @end

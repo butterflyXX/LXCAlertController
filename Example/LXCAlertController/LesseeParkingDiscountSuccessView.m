@@ -1,13 +1,14 @@
 //
-//  ELLesseeParkingDiscountSuccessView.m
+//  LesseeParkingDiscountSuccessView.m
 //  ActionSheetPicker-3.0
 //
 //  Created by 刘晓晨 on 2019/4/27.
 //
 
-#import "ELLesseeParkingDiscountSuccessView.h"
+#import "LesseeParkingDiscountSuccessView.h"
+#import <Masonry.h>
 
-@interface ELLesseeParkingDiscountSuccessView ()
+@interface LesseeParkingDiscountSuccessView ()
 
 @property (nonatomic,strong)UIImageView *iconImageView;
 
@@ -17,8 +18,10 @@
 
 @end
 
-@implementation ELLesseeParkingDiscountSuccessView
+@implementation LesseeParkingDiscountSuccessView
 
+
+//每一个自定义都有自己的需求,这个方法实现自己的页面自定义需求
 - (instancetype)initWithTitle:(NSString *)title subTitle:(NSString *)subTitle imageName:(NSString *)imageName {
     if (self = [super initWithFrame:CGRectZero]) {
         self.layer.cornerRadius = 6;
@@ -35,7 +38,7 @@
     
     self.iconImageView = [[UIImageView alloc] init];
     [self.contentView addSubview:self.iconImageView];
-    self.iconImageView.image = kBundleNameImage(@"Group");
+    self.iconImageView.image = [UIImage imageNamed:@"Group"];
     [self.iconImageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.offset(0);
         make.top.offset(24);
@@ -47,7 +50,7 @@
     
     self.titleLabel.font = [UIFont fontWithName:@"ArialMT" size:20];
     
-    self.titleLabel.textColor = kColor_TextTitle;
+    self.titleLabel.textColor = [UIColor blackColor];
     
     [self.contentView addSubview:self.titleLabel];
     
@@ -64,7 +67,7 @@
     
     self.subTitleLabel.font = [UIFont systemFontOfSize:14];
     
-    self.subTitleLabel.textColor = kColor_TextSubTitle;
+    self.subTitleLabel.textColor = [UIColor blackColor];
     
     [self.contentView addSubview:self.subTitleLabel];
     
@@ -78,18 +81,19 @@
     
 }
 
-
--(void)addActionWithButtonTitle:(NSString *)title block:(ELBaseAlertViewButtonActionBlock)actionBlock {
+//每一个自定义都有自己的需求,这个方法实现自己的按钮自定义需求
+-(void)addActionWithButtonTitle:(NSString *)title block:(LXCBaseAlertViewButtonActionBlock)actionBlock {
     UIButton *button = [[UIButton alloc] init];
     button.titleLabel.font = [UIFont systemFontOfSize:16];
-    button.backgroundColor = kColorWithHex(0xFD6C44);
-    [button setTitleColor:kColorWithHex(0xffffff) forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor redColor];
+    [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [button setTitle:title forState:UIControlStateNormal];
     [self setButton:button block:actionBlock];
 }
 
-//重写按钮方法
--(void)setButton:(UIButton *)button block:(ELBaseAlertViewButtonActionBlock)actionBlock {
+//重写按钮方法,这个方法是用来绑定按钮,并实现b按钮布局,因为框架内部只是设置了关联,没有对按钮布局(因为布局是需要用户根据自己的需要自定义的),需要继承super,并实现布局
+//  *******内部盛放button的view是自动填充大小的,所以用户添加的button需要去支撑buttonContentView
+-(void)setButton:(UIButton *)button block:(LXCBaseAlertViewButtonActionBlock)actionBlock {
     [super setButton:button block:actionBlock];
     [button mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.offset(0);

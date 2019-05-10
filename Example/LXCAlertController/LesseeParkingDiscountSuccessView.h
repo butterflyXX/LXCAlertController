@@ -1,20 +1,20 @@
 //
-//  ELLesseeParkingDiscountSuccessView.h
+//  LesseeParkingDiscountSuccessView.h
 //  ActionSheetPicker-3.0
 //
 //  Created by 刘晓晨 on 2019/4/27.
 //
 
 #import <UIKit/UIKit.h>
-#import "ELBaseAlertView.h"
+#import "LXCBaseAlertView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ELLesseeParkingDiscountSuccessView : ELBaseAlertView
+@interface LesseeParkingDiscountSuccessView : LXCBaseAlertView
 
 - (instancetype)initWithTitle:(NSString *)title subTitle:(NSString *)subTitle imageName:(NSString *)imageName;
 
--(void)addActionWithButtonTitle:(NSString *)title block:(ELBaseAlertViewButtonActionBlock)actionBlock;
+-(void)addActionWithButtonTitle:(NSString *)title block:(LXCBaseAlertViewButtonActionBlock)actionBlock;
 
 @end
 

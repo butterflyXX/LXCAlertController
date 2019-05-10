@@ -6,11 +6,20 @@
 //  Copyright © 2019 刘晓晨. All rights reserved.
 //
 
-#import <LXCAlertController/LXCAlertController.h>
+#import "LXCBaseAlertController.h"
+#import "LesseeParkingDiscountSuccessView.h"
+
+typedef void(^EasyBlock)(void);
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LXCAlertController : LXCBaseAlertController
+
+@property (nonatomic,weak)LesseeParkingDiscountSuccessView *el_alertView;
+
++(instancetype)alertControllerWithTitle:(NSString *)title subTitle:(NSString *)subTitle imageName:(NSString *)imageName;
+
+-(void)addActionWithButtonTitle:(NSString *)title block:(EasyBlock)block;
 
 @end
 

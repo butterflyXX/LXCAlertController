@@ -7,7 +7,7 @@
 //
 
 #import "LXCBaseAlertView.h"
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 
 #define kLXCBaseAlertViewColorWithHex(c) [UIColor colorWithRed:((c>>16)&0xFF)/255.0f green:((c>>8)&0xFF)/255.0f blue:(c&0xFF)/255.0f alpha:1.0f]
 

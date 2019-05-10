@@ -14,19 +14,17 @@
 
 @implementation LXCAlertController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
++(instancetype)alertControllerWithTitle:(NSString *)title subTitle:(NSString *)subTitle imageName:(NSString *)imageName {
+    LesseeParkingDiscountSuccessView *alertView = [[LesseeParkingDiscountSuccessView alloc] initWithTitle:title subTitle:subTitle imageName:imageName];
+    
+    LXCAlertController *alertController = [self alertControllerWithAlertView:alertView];
+//    alertController.tapBackgroundDismissEnable = YES;
+    alertController.el_alertView = alertView;
+    return alertController;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)addActionWithButtonTitle:(NSString *)title block:(EasyBlock)block {
+    [self.el_alertView addActionWithButtonTitle:title block:[block copy]];
 }
-*/
 
 @end

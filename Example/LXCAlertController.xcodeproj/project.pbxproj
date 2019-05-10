@@ -15,7 +15,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* LXCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* LXCAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* LXCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* LXCViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,8 +22,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		71A2FC93228512D9006F416D /* LesseeParkingDiscountSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A2FC92228512D9006F416D /* LesseeParkingDiscountSuccessView.m */; };
-		71A2FC9622851600006F416D /* LXCAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A2FC9522851600006F416D /* LXCAlertController.m */; };
+		71A2FCA322855513006F416D /* LXCAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A2FC9D22855512006F416D /* LXCAlertController.m */; };
+		71A2FCA422855513006F416D /* LXCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A2FC9E22855512006F416D /* LXCViewController.m */; };
+		71A2FCA522855513006F416D /* LesseeParkingDiscountSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A2FCA122855513006F416D /* LesseeParkingDiscountSuccessView.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -52,8 +52,6 @@
 		6003F59B195388D20070C39A /* LXCAlertController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LXCAlertController-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* LXCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXCAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* LXCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXCAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* LXCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXCViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* LXCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXCViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* LXCAlertController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXCAlertController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,10 +61,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		69D1326FCFF25D2130932049 /* Pods_LXCAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXCAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		71A2FC91228512D9006F416D /* LesseeParkingDiscountSuccessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LesseeParkingDiscountSuccessView.h; sourceTree = "<group>"; };
-		71A2FC92228512D9006F416D /* LesseeParkingDiscountSuccessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LesseeParkingDiscountSuccessView.m; sourceTree = "<group>"; };
-		71A2FC9422851600006F416D /* LXCAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXCAlertController.h; sourceTree = "<group>"; };
-		71A2FC9522851600006F416D /* LXCAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXCAlertController.m; sourceTree = "<group>"; };
+		71A2FC9D22855512006F416D /* LXCAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCAlertController.m; sourceTree = "<group>"; };
+		71A2FC9E22855512006F416D /* LXCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCViewController.m; sourceTree = "<group>"; };
+		71A2FC9F22855513006F416D /* LesseeParkingDiscountSuccessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LesseeParkingDiscountSuccessView.h; sourceTree = "<group>"; };
+		71A2FCA022855513006F416D /* LXCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCViewController.h; sourceTree = "<group>"; };
+		71A2FCA122855513006F416D /* LesseeParkingDiscountSuccessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LesseeParkingDiscountSuccessView.m; sourceTree = "<group>"; };
+		71A2FCA222855513006F416D /* LXCAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCAlertController.h; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C54405B594559C9D8C779D1 /* Pods-LXCAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXCAlertController_Example.debug.xcconfig"; path = "Target Support Files/Pods-LXCAlertController_Example/Pods-LXCAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		912DF09F4DD42BCC89758C84 /* Pods_LXCAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXCAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,15 +138,15 @@
 		6003F593195388D20070C39A /* Example for LXCAlertController */ = {
 			isa = PBXGroup;
 			children = (
-				71A2FC91228512D9006F416D /* LesseeParkingDiscountSuccessView.h */,
-				71A2FC92228512D9006F416D /* LesseeParkingDiscountSuccessView.m */,
+				71A2FC9F22855513006F416D /* LesseeParkingDiscountSuccessView.h */,
+				71A2FCA122855513006F416D /* LesseeParkingDiscountSuccessView.m */,
+				71A2FCA222855513006F416D /* LXCAlertController.h */,
+				71A2FC9D22855512006F416D /* LXCAlertController.m */,
+				71A2FCA022855513006F416D /* LXCViewController.h */,
+				71A2FC9E22855512006F416D /* LXCViewController.m */,
 				6003F59C195388D20070C39A /* LXCAppDelegate.h */,
 				6003F59D195388D20070C39A /* LXCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* LXCViewController.h */,
-				6003F5A6195388D20070C39A /* LXCViewController.m */,
-				71A2FC9422851600006F416D /* LXCAlertController.h */,
-				71A2FC9522851600006F416D /* LXCAlertController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -334,10 +334,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LXCAlertController_Example/Pods-LXCAlertController_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LXCAlertController/LXCAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LXCAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -373,11 +375,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A2FCA522855513006F416D /* LesseeParkingDiscountSuccessView.m in Sources */,
+				71A2FCA422855513006F416D /* LXCViewController.m in Sources */,
+				71A2FCA322855513006F416D /* LXCAlertController.m in Sources */,
 				6003F59E195388D20070C39A /* LXCAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* LXCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				71A2FC93228512D9006F416D /* LesseeParkingDiscountSuccessView.m in Sources */,
-				71A2FC9622851600006F416D /* LXCAlertController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
