@@ -23,6 +23,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		71A2FC93228512D9006F416D /* LesseeParkingDiscountSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A2FC92228512D9006F416D /* LesseeParkingDiscountSuccessView.m */; };
+		71A2FC9622851600006F416D /* LXCAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A2FC9522851600006F416D /* LXCAlertController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		097B34EDA721C41D3CBBF650 /* LXCAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LXCAlertController.podspec; path = ../LXCAlertController.podspec; sourceTree = "<group>"; };
+		097B34EDA721C41D3CBBF650 /* LXCAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LXCAlertController.podspec; path = ../LXCAlertController.podspec; sourceTree = "<group>"; };
 		2C0B762271FBAF73F7A72727 /* Pods-LXCAlertController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXCAlertController_Tests.release.xcconfig"; path = "Target Support Files/Pods-LXCAlertController_Tests/Pods-LXCAlertController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		59B4FAF15ADF3981351175DC /* Pods-LXCAlertController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXCAlertController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LXCAlertController_Tests/Pods-LXCAlertController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LXCAlertController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXCAlertController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,12 +63,16 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		69D1326FCFF25D2130932049 /* Pods_LXCAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXCAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71A2FC91228512D9006F416D /* LesseeParkingDiscountSuccessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LesseeParkingDiscountSuccessView.h; sourceTree = "<group>"; };
+		71A2FC92228512D9006F416D /* LesseeParkingDiscountSuccessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LesseeParkingDiscountSuccessView.m; sourceTree = "<group>"; };
+		71A2FC9422851600006F416D /* LXCAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXCAlertController.h; sourceTree = "<group>"; };
+		71A2FC9522851600006F416D /* LXCAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXCAlertController.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C54405B594559C9D8C779D1 /* Pods-LXCAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXCAlertController_Example.debug.xcconfig"; path = "Target Support Files/Pods-LXCAlertController_Example/Pods-LXCAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		912DF09F4DD42BCC89758C84 /* Pods_LXCAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXCAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD6164C870A487158163788D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BD6164C870A487158163788D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C3EDFE7A8663075367CA0F70 /* Pods-LXCAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXCAlertController_Example.release.xcconfig"; path = "Target Support Files/Pods-LXCAlertController_Example/Pods-LXCAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F58D7CD10742E3C0B2D6F9B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F58D7CD10742E3C0B2D6F9B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,11 +138,15 @@
 		6003F593195388D20070C39A /* Example for LXCAlertController */ = {
 			isa = PBXGroup;
 			children = (
+				71A2FC91228512D9006F416D /* LesseeParkingDiscountSuccessView.h */,
+				71A2FC92228512D9006F416D /* LesseeParkingDiscountSuccessView.m */,
 				6003F59C195388D20070C39A /* LXCAppDelegate.h */,
 				6003F59D195388D20070C39A /* LXCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LXCViewController.h */,
 				6003F5A6195388D20070C39A /* LXCViewController.m */,
+				71A2FC9422851600006F416D /* LXCAlertController.h */,
+				71A2FC9522851600006F416D /* LXCAlertController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +203,6 @@
 				59B4FAF15ADF3981351175DC /* Pods-LXCAlertController_Tests.debug.xcconfig */,
 				2C0B762271FBAF73F7A72727 /* Pods-LXCAlertController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,7 +254,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LXC;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "刘晓晨";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -325,10 +334,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LXCAlertController_Example/Pods-LXCAlertController_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LXCAlertController/LXCAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LXCAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,6 +378,8 @@
 				6003F59E195388D20070C39A /* LXCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LXCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				71A2FC93228512D9006F416D /* LesseeParkingDiscountSuccessView.m in Sources */,
+				71A2FC9622851600006F416D /* LXCAlertController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,19 +437,32 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -464,18 +490,31 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
